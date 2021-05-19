@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com/" />
-  <project name="FSI-Ishiduka/sample_project1" path="sample_project1" remote="github" revision="master" />
-  <project name="FSI-Ishiduka/sample_project2" path="sample_project2" remote="github" revision="master" />
+  <project name="FSI-Ishiduka/sample_project1" path="sample_project1" remote="github" revision="main" />
+  <project name="FSI-Ishiduka/sample_project2" path="sample_project2" remote="github" revision="main" />
 </manifest>
