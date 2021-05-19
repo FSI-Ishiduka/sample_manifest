@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+  <project name="IshizukaYasuhito/acr-build-helloworld-node" path="helloworld" remote="github" revision="master" />
+  <project name="IshizukaYasuhito/rails_enpit" path="rails_enpit" remote="github" revision="master" />
+</manifest>
