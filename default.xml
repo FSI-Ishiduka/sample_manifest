@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="kernel" fetch="ssh://git@github.com/SonySemiconductorSolutions"/>
-  <remote name="sample" fetch="ssh://git@github.com/FSI-Ishiduka"/>
+  <remote name="external" fetch="ssh://git@github.com/FSI-Ishiduka"/>
   <remote name="test" fetch="ssh://git@github.com/google"/>
   <default remote="kernel" />
   <project name="kpj-linux-4.9" path="kernel/kernel-4.9" remote="kernel" revision="BDK_main"/>
-  <project name="sample_project2" path="external/samples" remote="sample" revision="main"/>
+  <project name="external" path="external" remote="external" revision="main"/>
   <project name="googletest" path="Tools/GoogleTest_FrameWarks/googletest" remote="test" revision="master"/>
 </manifest>
