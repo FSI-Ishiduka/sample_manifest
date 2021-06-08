@@ -4,7 +4,7 @@
   <remote name="sample" fetch="ssh://git@github.com/FSI-Ishiduka"/>
   <remote name="test" fetch="ssh://git@github.com/google"/>
   <default remote="kernel" />
-  <project name="kpj-linux-4.9.git" path="kernel/kernel-4.9" remote="kernel" revision="BDK_main"/>
-  <project name="sample_project2.git" path="external/samples" remote="sample" revision="main"/>
-  <project name="googletest.git" path="Tools/GoogleTest_FrameWarks/googletest" remote="test" revision="master"/>
+  <project name="kpj-linux-4.9" path="kernel/kernel-4.9" remote="kernel" revision="BDK_main"/>
+  <project name="sample_project2" path="external/samples" remote="sample" revision="main"/>
+  <project name="googletest" path="Tools/GoogleTest_FrameWarks/googletest" remote="test" revision="master"/>
 </manifest>
