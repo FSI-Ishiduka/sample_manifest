@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="https://github.com/" />
-  <project name="SonySemiconductorSolutions/kpj-linux-4.9" path="kernel/kernel-4.9" remote="github" revision="BDK_main" />
-  <project name="FSI-Ishiduka/sample_project2" path="sample_project2" remote="github" revision="main" />
-  <project name="google/googletest" path="Tools/GoogleTest_FrameWarks/googletest" remote="github" revision="refs/tags/release-1.10.0" />
+  <remote name="origin" fetch="ssh://git@gitlab.com" />
+  <default remote="origin" />
+  <project path="kernel/kernel-4.9" name="SonySemiconductorSolutions/kpj-linux-4.9"  remote="origin" revision="BDK_main" />
+  <project path="sample_project2" name="FSI-Ishiduka/sample_project2" remote="origin" revision="main" />
+  <project path="Tools/GoogleTest_FrameWarks/googletest" name="google/googletest" remote="origin" revision="refs/tags/release-1.10.0" />
 </manifest>
