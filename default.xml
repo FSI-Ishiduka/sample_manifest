@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="ssh://git@gitlab.com" />
+  <remote name="origin" fetch="ssh://git@github.com" />
   <default remote="origin" />
   <project path="kernel/kernel-4.9" name="SonySemiconductorSolutions/kpj-linux-4.9"  remote="origin" revision="BDK_main" />
   <project path="sample_project2" name="FSI-Ishiduka/sample_project2" remote="origin" revision="main" />
