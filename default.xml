@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="sample_project1" fetch="ssh://github.com/FSI-Ishiduka"/>
-  <remote name="external" fetch="ssh://git@github.com/FSI-Ishiduka"/>
-  <project name="sample_project1" path="kernel/sample_project1" remote="sample_project1" revision="main"/>
-  <project name="external" path="external/external" remote="external" revision="main"/>
+ <remote name="external" fetch="ssh://git@github.com/FSI-Ishiduka"/>
+ <project name="external" path="external" remote="external" revision="main"/>
 </manifest>
