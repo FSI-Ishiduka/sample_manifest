@@ -5,5 +5,5 @@
   <remote name="test" fetch="ssh://git@github.com/google"/>
   <project name="sample_project1" path="kernel/sample_project1" remote="sample_project1" revision="main"/>
   <project name="external" path="external" remote="external" revision="main"/>
-  <project name="googletest" path="Tools/GoogleTest_FrameWarks/googletest" remote="test" revision="release-1.10.0"/>
+  <project name="googletest" path="Tools/GoogleTest_FrameWarks/googletest" remote="test" revision="ref/tags/release-1.10.0"/>
 </manifest>
