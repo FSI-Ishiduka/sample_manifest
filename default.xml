@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <remote name="external" fetch="ssh://git@github.com/FSI-Ishiduka"/>
- <remote name="test" fetch="https://github.com/google/googletest"/>
+ <remote name="test" fetch="https://github.com/google"/>
  <project name="external" path="external" remote="external" revision="main"/>
  <project name="googletest" path="Tools/GoogleTest_FrameWarks/googletest" remote="test" revision="703bd9caab50b139428cea1aaff9974ebee5742e"/>
 </manifest>
